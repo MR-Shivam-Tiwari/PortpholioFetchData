@@ -1,0 +1,273 @@
+@charset "utf-8";
+body.dark{
+	background-color: #252439;
+	color: #bebdc4;
+}
+body.dark ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+    color: #bebdc4;
+}
+body.dark :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+   color: #bebdc4;
+   opacity:  1;
+}
+body.dark ::-moz-placeholder { /* Mozilla Firefox 19+ */
+   color: #bebdc4;
+   opacity:  1;
+}
+body.dark :-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: #bebdc4;
+}
+body.dark ::-ms-input-placeholder { /* Microsoft Edge */
+   color: #bebdc4;
+}
+body.dark ::placeholder { /* Most modern browsers support this now. */
+   color: #bebdc4;
+}
+body.dark::-webkit-scrollbar {
+  width: 11px;
+}
+
+body.dark #preloader:before,
+body.dark #preloader:after{
+    background-color: #fff;
+}
+body.dark .loader_line:before{
+    background-color: #000;
+}
+body.dark .loader_line:after{
+    background-color: #ddd;
+}
+
+body.dark{
+  scrollbar-width: thin;
+  scrollbar-color: #777 #2b2d33;
+}
+body.dark:-webkit-scrollbar-track {
+  background: #2b2d33;
+}
+body.dark::-webkit-scrollbar-thumb {
+  background-color: #777;
+  border-radius: 6px;
+  border: 3px solid #2b2d33;
+}
+body.dark h1,body.dark h2,body.dark h3,body.dark h4,body.dark h5,body.dark h6{
+	color: #fff;
+}
+body.dark .orido_tm_modalbox .description_wrap{
+  scrollbar-width: thin;
+  scrollbar-color: #777 #34353a;
+}
+body.dark .orido_tm_modalbox .description_wrap:-webkit-scrollbar-track{
+  background: #34353a;
+}
+body.dark .orido_tm_modalbox .description_wrap::-webkit-scrollbar-thumb{
+  background-color: #777;
+  border-radius: 6px;
+  border: 3px solid #34353a;
+}
+body.dark .orido_tm_header.animate{
+	background-color: #252439;
+}
+body.dark .orido_tm_header .menu ul li a{
+	color: #C4C4C4;
+}
+body.dark .orido_tm_header .menu .ccc{
+	background-color: #fff;
+}
+body.dark .orido_tm_header .button a{
+	background-color: #fff;
+	boder-color: #fff;
+	color: #12141D;
+}
+body.dark .orido_tm_hero .short .job{
+	color: #fff;
+}
+body.dark .orido_tm_hero .short .job:before{
+	background-color: #fff;
+}
+body.dark .orido_tm_hero .text p{
+	color: #C4C4C4;
+}
+body.dark .orido_tm_simple_button a{
+	color: #fff;
+}
+body.dark .orido_tm_simple_button a .svg path{
+	fill: #fff;
+}
+body.dark .orido_tm_boxed_button a:hover{
+	color: #12141D;
+	background-color: #fff;
+}
+body.dark .orido_tm_boxed_button a:hover .svg path{
+	fill:#12141D;
+}
+body.dark .orido_tm_follow ul li a:hover{
+	background-color: #6244C5;
+}
+body.dark .orido_tm_about .experience{
+	color: #12141D;
+}
+body.dark .orido_tm_main_title h3 span:before{
+	background-color: #fff;
+}
+body.dark .orido_tm_informations .right .filter ul li a{
+	color: #fff;
+}
+body.dark .orido_tm_informations .right .filter ul li a .svg path{
+	fill: #fff;
+}
+body.dark .orido_tm_informations .right .filter .ccc{
+	border-color: #fff;
+}
+body.dark .orido_tm_informations .skillbox .icon{
+	background-color: #fff;
+}
+body.dark .orido_tm_informations .skillbox .name{
+	color: #fff;
+}
+body.dark .orido_tm_informations .timelinebox .time .year{
+	color: #7953F8;
+}
+body.dark .orido_tm_informations .timelinebox .job span:before{
+	background-color: #fff;
+}
+body.dark .orido_tm_counter .counter_list h3{
+	-webkit-text-stroke:1px #12141D;
+}
+body.dark .orido_tm_service{
+	background-color: #302f43;
+}
+body.dark .orido_tm_service .service_list ul li{
+	border-bottom-color: rgba(255,255,255,.2);
+}
+body.dark .orido_tm_service .service_list ul li:first-child{
+	border-top-color:rgba(255,255,255,.2);
+}
+body.dark .orido_tm_service .service_list .number{
+	color: #98A5FF;
+}
+body.dark .orido_tm_service .service_list li.mleave .number{
+	color: #98A5FF;
+}
+body.dark .orido_tm_service .service_list li.mleave .title{
+	color: #fff;
+}
+body.dark .orido_tm_service .service_list li.mleave .right .text p{
+	color: #bebdc4;
+}
+body.dark .orido_tm_service .service_list li.mleave .right .svg path{
+	fill: #98A5FF;
+}
+body.dark .orido_tm_service .service_list .right .svg path{
+	fill: #98A5FF;
+}
+body.dark .orido_tm_portfolio .orido_tm_main_title h3{
+	color: #12141D;
+}
+body.dark .orido_tm_portfolio .orido_tm_main_title h3 span:before{
+	background-color: #12141D;
+}
+body.dark .orido_tm_portfolio .portfolio_list .category{
+	color: #12141D;
+}
+body.dark .orido_tm_portfolio .portfolio_list .title{
+	color: #12141D;
+}
+body.dark .orido_tm_testimonials{
+	background-color: #302f43;
+}
+body.dark .orido_tm_testimonials .text p{
+	color: #fff;
+}
+body.dark .orido_tm_testimonials .details .job{
+	color: #C4C4C4;
+}
+body.dark .orido_tm_testimonials .details .name span:before{
+	background-color: #fff;
+}
+body.dark .orido_tm_news .news_list > ul > li .list_inner{
+	background-color: #FFF2C7;
+}
+body.dark .orido_tm_news .metabox span{
+	color: #12141D;
+}
+body.dark .orido_tm_news .orido_tm_simple_button a{
+	color: #12141D;
+}
+body.dark .orido_tm_news .orido_tm_simple_button a .svg path{
+	fill: #12141D;
+}
+body.dark .orido_tm_contact .orido_tm_follow ul li a:hover{
+	background-color: #fff;
+}
+body.dark .mouse-cursor{
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+  border-radius: 50%;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  visibility: hidden;
+}
+body.dark .cursor-inner{
+	background-color: #FFC448;
+}
+body.dark .cursor-inner.cursor-hover{
+  	background-color: #FFC448;
+}
+body.dark .cursor-outer{
+  	border: 2px solid #FFC448;
+}
+body.dark .orido_tm_mobile_menu .mobile_menu_inner{
+	background-color: #252439;
+	border-bottom-color: rgba(255,255,255,.1);
+}
+body.dark .orido_tm_mobile_menu .dropdown{
+	background-color: #252439;
+}
+body.dark .orido_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+	color: #fff;
+}
+body.dark .hamburger-inner, body.dark .hamburger-inner:after, body.dark .hamburger-inner:before{background-color: #fff;}
+body.dark .hamburger.is-active .hamburger-inner, body.dark .hamburger.is-active .hamburger-inner:after, body.dark .hamburger.is-active .hamburger-inner:before{background-color: #fff;}
+body.dark .orido_tm_modalbox .box_inner{
+	background-color: #302f43;
+}
+body.dark .orido_tm_modalbox .description_wrap:before{
+	background-color: #302f43;
+}
+body.dark .orido_tm_modalbox .description_wrap:after{
+	background-color: #302f43;
+}
+body.dark .orido_tm_modalbox .portfolio_main_title span a{
+	color: #bebdc4;
+}
+body.dark .orido_tm_modalbox .main_details .detailbox .first{
+	color: #fff;
+}
+body.dark .orido_tm_modalbox .main_details .detailbox span a{
+	color: #bebdc4;
+}
+body.dark .orido_tm_modalbox .metabox a{
+	color: #bebdc4;
+}
+body.dark .progressbar .text{
+	color: #fff;
+}
+body.dark .progressbar .text{
+	color: #fff;
+}
+body.dark .progressbar{
+	background-color: rgba(255,255,255,.08);
+}
+body.dark .progressbar .line{
+	background-color: rgba(255,255,255,.4);
+}
+
+
+
+
+
+
+

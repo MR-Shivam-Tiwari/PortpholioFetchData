@@ -1,0 +1,62 @@
+@import "../css/plugins.css";
+@import "../css/dark.css";
+@import "../css/style.css";
+
+/* @import "swiper/css"; */
+/* @import "swiper/css/navigation"; */
+/* @import "swiper/css/pagination"; */
+/* @import "swiper/css/scrollbar"; */
+/* @import "swiper/css/effect-fade"; */
+
+html {
+  scroll-behavior: smooth;
+}
+.c-pointer {
+  cursor: pointer;
+}
+
+/* .anchor_nav li.current {
+  position: relative;
+  transition: 1s all;
+}
+.anchor_nav .current::after {
+  content: "";
+  width: 100%;
+  height: 2px;
+  background: var(--main-color);
+  position: absolute;
+  bottom: 0px;
+  left: 0;
+  transition: 1s all;
+  display: block;
+}
+.dark .anchor_nav .current::after {
+  content: "";
+  background: #fff;
+} */
+
+/* image popup */
+img.mfp-img {
+  box-shadow: 0 0 8px rgb(0 0 0 / 60%);
+  position: absolute;
+  max-height: 392px;
+  padding: 0 !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mfp-img-container .mfp-content {
+  max-width: 400px !important;
+}
+.mfp-img-container .mfp-close {
+  top: -110px;
+  right: -24px;
+}
+.main-menu li.active > a,
+.header-navigation .main-menu ul > li.has-children.active > a:after {
+  color: #ff344f !important;
+}
+
+span.current {
+  color: unset !important;
+}
